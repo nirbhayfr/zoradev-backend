@@ -16,7 +16,7 @@ This is a simple REST API built using Node.js and Express for managing tasks. It
 
 ## API Endpoints
 
-### 1. GET /tasks
+### 1. GET /task
 
 Returns all tasks.
 
@@ -31,7 +31,7 @@ Returns all tasks.
 
 ---
 
-### 2. POST /tasks
+### 2. POST /task
 
 Creates a new task.
 
@@ -58,7 +58,7 @@ Creates a new task.
 
 ---
 
-### 3. DELETE /tasks/:id
+### 3. DELETE /task/:id
 
 Deletes a task by ID.
 
@@ -66,7 +66,7 @@ Deletes a task by ID.
 
 ## Bonus Endpoint (Optional Feature)
 
-### PATCH /tasks/:id/toggle
+### PATCH /task/:id/toggle
 
 Toggles task completion status.
 
@@ -122,6 +122,12 @@ npm run dev
 
 ```
 http://localhost:5000
+```
+
+5. Base API URL:
+
+```
+http://localhost:5000/api/v1
 ```
 
 ---
